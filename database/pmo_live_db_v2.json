@@ -1,0 +1,2057 @@
+{
+  "roles": [
+    {
+      "id": 1,
+      "name": "PMO Manager",
+      "description": "Full oversight of departments, portfolios, initiatives, projects, and governance.",
+      "descriptionAr": "إشراف كامل على الإدارات والمحافظ والمبادرات والمشاريع والحوكمة."
+    },
+    {
+      "id": 2,
+      "name": "Project Manager",
+      "description": "Manages assigned initiatives, projects, schedules, and task allocations.",
+      "descriptionAr": "إدارة المبادرات والمشاريع المكلف بها والجداول الزمنية وتوزيع المهام."
+    },
+    {
+      "id": 3,
+      "name": "Team Member",
+      "description": "Executes project activities/tasks and updates task progress and status.",
+      "descriptionAr": "تنفيذ أنشطة ومهام المشاريع وتحديث نسب التقدم وحالة الإنجاز."
+    }
+  ],
+  "users": [
+    {
+      "id": 7,
+      "fullName": "Hamada El Daley",
+      "email": "hamadamanus2@gmail.com",
+      "username": "Hamada El Daley",
+      "passwordHash": "scrypt$999331302faba9bfa8a39b61e6206cf5$523014f49f76c37d57d4546d299843a8cf70f55b8f298d7e80ed8a762ad88c2f98fc65466649c0d22d36f3c1e16f7e13a88e1e7f077ce897e814b74b8806a9d8",
+      "roleId": 1,
+      "isActive": true,
+      "fullNameAr": "حمادة الدالي"
+    },
+    {
+      "id": 1,
+      "fullName": "Elena Vance",
+      "email": "elena.vance@enterprise.org",
+      "username": "pmo.admin",
+      "passwordHash": "scrypt$9c22ddb856f8513603dea22e3b5ff78d$f44640c2094894de009651f28c000a75cc625306e9c9880550a6d46cf04600a840b3b2e9ea3dfdce473be62996d96908f4b922d8f5ef1785948d6c4a64d6bf5f",
+      "roleId": 1,
+      "isActive": true,
+      "fullNameAr": "إيلينا فانس"
+    },
+    {
+      "id": 2,
+      "fullName": "Marcus Sterling",
+      "email": "marcus.sterling@enterprise.org",
+      "username": "m.sterling",
+      "passwordHash": "scrypt$a945ed4e7df0dbf9a7cd85d19a19cb36$eedbc1b457ee62e5311705aa3f9a288b040fc873701b43e4e9a712f72df6bac67a2955d7e83be0a29301616da146cbfb69945380cb4b72dbd557f354f576d463",
+      "roleId": 2,
+      "isActive": true,
+      "fullNameAr": "ماركوس ستيرلينغ"
+    },
+    {
+      "id": 3,
+      "fullName": "Clara Chen",
+      "email": "clara.chen@enterprise.org",
+      "username": "c.chen",
+      "passwordHash": "scrypt$8f7e4be9785b5f0240e82e066f57ec4b$f56775211b12fcf9376e9d0460c66ce0729c97def82374a9c305848d7416aed4fe1d96ce5d0972daa4a06a6a3fb3efc48a87432ec06331f10e390eaf47d6c32e",
+      "roleId": 2,
+      "isActive": true,
+      "fullNameAr": "كلارا تشين"
+    },
+    {
+      "id": 4,
+      "fullName": "David Alverez",
+      "email": "david.alverez@enterprise.org",
+      "username": "d.alverez",
+      "passwordHash": "scrypt$230f09f6aaca803b61d66a9187f2f936$84a7f19b809c85b55fdc340a329dbe63646f757748709cd58891f0c23c368aa5addef2f781330d5bcb4f3afbf73e8693e133165893d783eab11fa2dcf38da5cf",
+      "roleId": 3,
+      "isActive": true,
+      "fullNameAr": "ديفيد ألفاريز"
+    },
+    {
+      "id": 5,
+      "fullName": "Sophia Patel",
+      "email": "sophia.patel@enterprise.org",
+      "username": "s.patel",
+      "passwordHash": "scrypt$1accd392e32e8db8d3b79a70cd34f0f6$fff3a7fea9d3b2705e162e694dc60ca425a47b173c92d99a94aef5c8e24c678d9aa8ec8cb40a619cf3e1ae93254fedc8c7d201703fefcf13e52707d1df0cb438",
+      "roleId": 3,
+      "isActive": true,
+      "fullNameAr": "صوفيا باتيل"
+    },
+    {
+      "id": 6,
+      "fullName": "Liam O'Connor",
+      "email": "liam.oconnor@enterprise.org",
+      "username": "l.oconnor",
+      "passwordHash": "scrypt$e73f0d16935c9db07ae97e60c0994ee4$0b3f62c4dac5bc8509ebacdd3839a1cad4e2a9a13cf361142e1499f628f2c9ec1379ffdd07fc47fc39119b3e22bfb1d2d64684e2c4b431d816905622d7ccb19e",
+      "roleId": 3,
+      "isActive": true,
+      "fullNameAr": "ليام أوكونور"
+    }
+  ],
+  "departments": [
+    {
+      "id": 1,
+      "name": "IT",
+      "description": "Information Technology, Enterprise Architecture, Cloud Infrastructure, and Cybersecurity.",
+      "isActive": true,
+      "nameAr": "تقنية المعلومات",
+      "descriptionAr": "تقنية المعلومات، البنية المؤسسية، البنية السحابية، والأمن السيبراني."
+    },
+    {
+      "id": 2,
+      "name": "Finance",
+      "description": "Corporate Finance, Financial Planning & Analysis, Accounting, and Treasury.",
+      "isActive": true,
+      "nameAr": "الإدارة المالية",
+      "descriptionAr": "المالية المؤسسية، التخطيط والتحليل المالي، المحاسبة، والخزينة."
+    },
+    {
+      "id": 3,
+      "name": "HR",
+      "description": "Human Resources, Talent Acquisition, Organizational Development, and People Operations.",
+      "isActive": true,
+      "nameAr": "الموارد البشرية",
+      "descriptionAr": "الموارد البشرية، استقطاب الكفاءات، التطوير التنظيمي، وشؤون الموظفين."
+    },
+    {
+      "id": 4,
+      "name": "Operations",
+      "description": "Global Supply Chain, Facilities, Logistics, and Core Business Operations.",
+      "isActive": true,
+      "nameAr": "العمليات والتشغيل",
+      "descriptionAr": "سلاسل الإمداد العالمية، المرافق، اللوجستيات، والعمليات التشغيلية الأساسية."
+    },
+    {
+      "id": 5,
+      "name": "Marketing",
+      "description": "Brand Strategy, Digital Customer Acquisition, Product Marketing, and Communications.",
+      "isActive": true,
+      "nameAr": "التسويق والاتصال",
+      "descriptionAr": "استراتيجية العلامة التجارية، الاستقطاب الرقمي، تسويق المنتجات، والاتصال المؤسسي."
+    }
+  ],
+  "portfolios": [
+    {
+      "id": 1,
+      "name": "Digital Transformation Portfolio",
+      "description": "Modernizing core enterprise platforms, cloud infrastructure, and customer-facing digital touchpoints.",
+      "departmentId": 1,
+      "ownerId": 1,
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "status": "Active",
+      "nameAr": "محفظة التحول الرقمي",
+      "descriptionAr": "تحديث المنصات المؤسسية الأساسية والبنية السحابية ونقاط الاتصال الرقمية للمستفيدين."
+    },
+    {
+      "id": 2,
+      "name": "Financial Governance & ERP Modernization",
+      "description": "Automating financial reporting, audit readiness, and ERP ledger consolidation.",
+      "departmentId": 2,
+      "ownerId": 1,
+      "startDate": "2026-02-01",
+      "endDate": "2026-11-30",
+      "status": "Active",
+      "nameAr": "الحوكمة المالية وتحديث أنظمة تخطيط الموارد",
+      "descriptionAr": "أتمتة التقارير المالية، الجاهزية للتدقيق، وتوحيد دفاتر الأستاذ المالي."
+    },
+    {
+      "id": 3,
+      "name": "Operational Excellence & Supply Resilience",
+      "description": "Optimizing warehouse fulfillment, procurement workflows, and regional logistics.",
+      "departmentId": 4,
+      "ownerId": 2,
+      "startDate": "2026-01-15",
+      "endDate": "2026-10-31",
+      "status": "Active",
+      "nameAr": "التميز التشغيلي ومرونة سلاسل الإمداد",
+      "descriptionAr": "تحسين عمليات المستودعات، إجراءات المشتريات، والخدمات اللوجستية الإقليمية."
+    },
+    {
+      "id": 4,
+      "name": "Workforce Empowerment & Talent Growth",
+      "description": "Next-generation employee onboarding, continuous learning, and hybrid workplace enablement.",
+      "departmentId": 3,
+      "ownerId": 3,
+      "startDate": "2026-03-01",
+      "endDate": "2026-12-15",
+      "status": "Planning",
+      "nameAr": "تمكين القوى العاملة وتنمية المواهب",
+      "descriptionAr": "تهيئة الموظفين الجدد، التعلم المستمر، وتمكين بيئة العمل الهجينة."
+    }
+  ],
+  "initiatives": [
+    {
+      "id": 1,
+      "name": "Customer Service Initiative",
+      "description": "Unified omnichannel customer self-service and ticket resolution platform.",
+      "departmentId": 1,
+      "portfolioId": 1,
+      "ownerId": 2,
+      "startDate": "2026-01-15",
+      "targetDate": "2026-11-30",
+      "status": "In Progress",
+      "priority": "High",
+      "progressPercentage": 62,
+      "nameAr": "مبادرة خدمة العملاء والخدمات الذاتية",
+      "descriptionAr": "منصة موحدة متعددة القنوات للخدمة الذاتية ومعالجة تذاكر الدعم."
+    },
+    {
+      "id": 2,
+      "name": "Cloud Data Platform Migration",
+      "description": "Consolidating legacy on-premise databases into a governed enterprise data warehouse.",
+      "departmentId": 1,
+      "portfolioId": 1,
+      "ownerId": 3,
+      "startDate": "2026-02-01",
+      "targetDate": "2026-11-15",
+      "status": "In Progress",
+      "priority": "Critical",
+      "progressPercentage": 70,
+      "nameAr": "ترحيل منصة البيانات السحابية",
+      "descriptionAr": "توحيد قواعد البيانات التقليدية في مستودع بيانات مؤسسي محوكَم."
+    },
+    {
+      "id": 3,
+      "name": "Automated Expense & Treasury Control",
+      "description": "Real-time spend analytics and automated invoice reconciliation.",
+      "departmentId": 2,
+      "portfolioId": 2,
+      "ownerId": 2,
+      "startDate": "2026-02-10",
+      "targetDate": "2026-08-31",
+      "status": "Completed",
+      "priority": "High",
+      "progressPercentage": 100,
+      "nameAr": "أتمتة المصروفات والرقابة على الخزينة",
+      "descriptionAr": "تحليلات الإنفاق الفوري والمطابقة الآلية للفواتير."
+    },
+    {
+      "id": 4,
+      "name": "Smart Warehouse & Inventory Tracking",
+      "description": "IoT-enabled inventory tracking and automated reorder forecasting across regional hubs.",
+      "departmentId": 4,
+      "portfolioId": 3,
+      "ownerId": 3,
+      "startDate": "2026-01-20",
+      "targetDate": "2026-10-28",
+      "status": "In Progress",
+      "priority": "High",
+      "progressPercentage": 55,
+      "nameAr": "المستودعات الذكية وتتبع المخزون",
+      "descriptionAr": "تتبع المخزون بتقنية إنترنت الأشياء والتنبؤ الآلي بإعادة الطلب عبر المراكز الإقليمية."
+    },
+    {
+      "id": 5,
+      "name": "Brand Experience & Analytics Revamp",
+      "description": "Multi-touch attribution modeling and unified customer journey analytics.",
+      "departmentId": 5,
+      "portfolioId": 1,
+      "ownerId": 2,
+      "startDate": "2026-04-01",
+      "targetDate": "2026-12-01",
+      "status": "In Progress",
+      "priority": "Medium",
+      "progressPercentage": 30,
+      "nameAr": "تطوير تجربة العلامة التجارية والتحليلات",
+      "descriptionAr": "نمذجة الإسناد متعدد القنوات وتوحيد تحليلات رحلة المستفيد."
+    },
+    {
+      "id": 6,
+      "name": "Continuous Learning & Leadership Academy",
+      "description": "Digital competency framework and role-based certification tracks.",
+      "departmentId": 3,
+      "portfolioId": 4,
+      "ownerId": 3,
+      "startDate": "2026-03-15",
+      "targetDate": "2026-11-30",
+      "status": "Not Started",
+      "priority": "Medium",
+      "progressPercentage": 10,
+      "nameAr": "أكاديمية التعلم المستمر والقيادة",
+      "descriptionAr": "إطار الكفاءات الرقمية ومسارات الشهادات التخصصية حسب الدور الوظيفي."
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Customer Portal Implementation",
+      "description": "Self-service web portal allowing customers to manage subscriptions, billing, and support requests.",
+      "initiativeId": 1,
+      "projectManagerId": 2,
+      "startDate": "2026-01-20",
+      "endDate": "2026-11-15",
+      "status": "In Progress",
+      "priority": "High",
+      "progressPercentage": 63,
+      "nameAr": "تنفيذ بوابة خدمة العملاء",
+      "descriptionAr": "بوابة ويب للخدمة الذاتية تتيح للمستفيدين إدارة الاشتراكات والفواتير وطلبات الدعم."
+    },
+    {
+      "id": 2,
+      "name": "Service Desk Ticketing Integration",
+      "description": "Bi-directional synchronization between customer support queues and engineering issue tracking.",
+      "initiativeId": 1,
+      "projectManagerId": 3,
+      "startDate": "2026-03-01",
+      "endDate": "2026-10-25",
+      "status": "In Progress",
+      "priority": "Medium",
+      "progressPercentage": 60,
+      "nameAr": "تكامل نظام تذاكر مكتب الدعم الفني",
+      "descriptionAr": "مزامنة ثنائية الاتجاه بين قوائم الدعم الفني وأنظمة تتبع المشكلات الهندسية."
+    },
+    {
+      "id": 3,
+      "name": "Core ETL Pipeline Modernization",
+      "description": "Building resilient data ingestion pipelines for daily operational reporting.",
+      "initiativeId": 2,
+      "projectManagerId": 3,
+      "startDate": "2026-02-15",
+      "endDate": "2026-10-20",
+      "status": "In Progress",
+      "priority": "Critical",
+      "progressPercentage": 70,
+      "nameAr": "تحديث خطوط أنابيب البيانات الأساسية",
+      "descriptionAr": "بناء مسارات استيعاب بيانات مرنة لإعداد التقارير التشغيلية اليومية."
+    },
+    {
+      "id": 4,
+      "name": "Automated Invoice Matching Engine",
+      "description": "Three-way matching automation between purchase orders, goods receipts, and vendor invoices.",
+      "initiativeId": 3,
+      "projectManagerId": 2,
+      "startDate": "2026-02-15",
+      "endDate": "2026-07-31",
+      "status": "Completed",
+      "priority": "High",
+      "progressPercentage": 100,
+      "nameAr": "محرك المطابقة الآلية للفواتير",
+      "descriptionAr": "أتمتة المطابقة الثلاثية بين أوامر الشراء وسندات الاستلام وفواتير الموردين."
+    },
+    {
+      "id": 5,
+      "name": "Regional Hub Barcode & RFID Rollout",
+      "description": "Hardware deployment and WMS integration for real-time pallet scanning.",
+      "initiativeId": 4,
+      "projectManagerId": 3,
+      "startDate": "2026-02-01",
+      "endDate": "2026-10-29",
+      "status": "In Progress",
+      "priority": "High",
+      "progressPercentage": 55,
+      "nameAr": "نشر تقنيات الباركود وتتبع الأصول بالمراكز",
+      "descriptionAr": "توفير الأجهزة والتكامل مع نظام إدارة المستودعات لمسح المنصات فورياً."
+    },
+    {
+      "id": 6,
+      "name": "Unified Web Analytics Tagging",
+      "description": "Standardized event taxonomy across all public web properties.",
+      "initiativeId": 5,
+      "projectManagerId": 2,
+      "startDate": "2026-04-10",
+      "endDate": "2026-11-30",
+      "status": "On Hold",
+      "priority": "Medium",
+      "progressPercentage": 0,
+      "nameAr": "توحيد وسوم تحليلات الويب",
+      "descriptionAr": "تصنيف موحد للأحداث عبر جميع المنصات والمواقع الإلكترونية العامة."
+    },
+    {
+      "id": 7,
+      "name": "Onboarding Portal & Checklist Automation",
+      "description": "Automated Day-1 provisioning and training schedule for new hires.",
+      "initiativeId": 6,
+      "projectManagerId": 3,
+      "startDate": "2026-04-01",
+      "endDate": "2026-11-25",
+      "status": "Planned",
+      "priority": "Low",
+      "progressPercentage": 0,
+      "nameAr": "بوابة التهيئة وأتمتة قوائم التحقق",
+      "descriptionAr": "تجهيز حسابات اليوم الأول وجدولة التدريب الآلي للموظفين الجدد."
+    }
+  ],
+  "workstreams": [
+    {
+      "id": 1,
+      "name": "Requirements",
+      "description": "Business analysis, stakeholder interviews, and functional specifications.",
+      "projectId": 1,
+      "ownerId": 2,
+      "startDate": "2026-01-20",
+      "endDate": "2026-03-15",
+      "status": "Completed",
+      "progressPercentage": 100,
+      "nameAr": "تجميع المتطلبات",
+      "descriptionAr": "تحليل الأعمال ومقابلات أصحاب المصلحة والمواصفات الوظيفية."
+    },
+    {
+      "id": 2,
+      "name": "UI/UX Design",
+      "description": "Wireframes, interactive prototypes, and design system compliance.",
+      "projectId": 1,
+      "ownerId": 4,
+      "startDate": "2026-03-10",
+      "endDate": "2026-05-15",
+      "status": "Completed",
+      "progressPercentage": 100,
+      "nameAr": "تصميم واجهة وتجربة المستخدم",
+      "descriptionAr": "النماذج الأولية والتفاعلية والالتزام بنظام التصميم المعتمد."
+    },
+    {
+      "id": 3,
+      "name": "Backend Development",
+      "description": "REST API microservices, authentication, and billing ledger integration.",
+      "projectId": 1,
+      "ownerId": 5,
+      "startDate": "2026-05-01",
+      "endDate": "2026-08-30",
+      "status": "Completed",
+      "progressPercentage": 100,
+      "nameAr": "تطوير الأنظمة الخلفية",
+      "descriptionAr": "الخدمات المصغرة لواجهات البرمجة والمصادقة وتكامل سجل الفواتير."
+    },
+    {
+      "id": 4,
+      "name": "Frontend Development",
+      "description": "Angular customer portal components, responsive views, and state management.",
+      "projectId": 1,
+      "ownerId": 5,
+      "startDate": "2026-06-01",
+      "endDate": "2026-10-10",
+      "status": "In Progress",
+      "progressPercentage": 50,
+      "nameAr": "تطوير الواجهات الأمامية",
+      "descriptionAr": "مكونات بوابة المستفيد التفاعلية والشاشات المتجاوبة وإدارة الحالة."
+    },
+    {
+      "id": 5,
+      "name": "Testing & QA",
+      "description": "Integration testing, security audit, and User Acceptance Testing (UAT).",
+      "projectId": 1,
+      "ownerId": 6,
+      "startDate": "2026-09-15",
+      "endDate": "2026-10-30",
+      "status": "In Progress",
+      "progressPercentage": 25,
+      "nameAr": "الاختبار وضمان الجودة",
+      "descriptionAr": "اختبارات التكامل والتدقيق الأمني واختبار قبول المستخدم."
+    },
+    {
+      "id": 6,
+      "name": "Deployment & Cutover",
+      "description": "Production release readiness, DNS cutover, and hypercare support.",
+      "projectId": 1,
+      "ownerId": 2,
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-15",
+      "status": "Planned",
+      "progressPercentage": 0,
+      "nameAr": "النشر والإطلاق التشغيلي",
+      "descriptionAr": "جاهزية الإطلاق الفعلي والتحول التشغيلي والدعم المكثف."
+    },
+    {
+      "id": 7,
+      "name": "Webhook & API Integration",
+      "description": "Queue synchronization and payload transformation.",
+      "projectId": 2,
+      "ownerId": 3,
+      "startDate": "2026-03-01",
+      "endDate": "2026-10-25",
+      "status": "In Progress",
+      "progressPercentage": 60,
+      "nameAr": "تكامل واجهات البرمجة والإشعارات الفورية",
+      "descriptionAr": "مزامنة قوائم الانتظار ومعالجة وتحويل حزم البيانات."
+    },
+    {
+      "id": 8,
+      "name": "Data Warehouse Schema & ETL",
+      "description": "Staging schemas and automated batch ingestion.",
+      "projectId": 3,
+      "ownerId": 6,
+      "startDate": "2026-02-15",
+      "endDate": "2026-10-20",
+      "status": "In Progress",
+      "progressPercentage": 70,
+      "nameAr": "مخططات مستودع البيانات ومعالجة البيانات",
+      "descriptionAr": "بناء مخططات التجهيز والاستيعاب الدفعي المؤتمت للبيانات."
+    }
+  ],
+  "milestones": [
+    {
+      "id": 1,
+      "name": "Requirements Approved",
+      "description": "Formal sign-off on Customer Portal functional requirements.",
+      "projectId": 1,
+      "workstreamId": 1,
+      "ownerId": 2,
+      "plannedDate": "2026-03-15",
+      "actualDate": "2026-03-14",
+      "status": "Completed",
+      "nameAr": "اعتماد المتطلبات",
+      "descriptionAr": "الاعتماد الرسمي للمتطلبات الوظيفية لبوابة المستفيد."
+    },
+    {
+      "id": 2,
+      "name": "Design Completed",
+      "description": "UI/UX design system and customer journey prototypes approved.",
+      "projectId": 1,
+      "workstreamId": 2,
+      "ownerId": 4,
+      "plannedDate": "2026-05-15",
+      "actualDate": "2026-05-15",
+      "status": "Completed",
+      "nameAr": "اكتمال التصميم",
+      "descriptionAr": "اعتماد نظام التصميم ونماذج رحلة المستفيد."
+    },
+    {
+      "id": 3,
+      "name": "Development Completed",
+      "description": "All backend APIs and Angular portal views feature-complete.",
+      "projectId": 1,
+      "workstreamId": 4,
+      "ownerId": 5,
+      "plannedDate": "2026-09-28",
+      "actualDate": null,
+      "status": "Delayed",
+      "nameAr": "اكتمال التطوير",
+      "descriptionAr": "اكتمال كافة واجهات البرمجة الخلفية وشاشات البوابة."
+    },
+    {
+      "id": 4,
+      "name": "UAT Completed",
+      "description": "End-to-end user acceptance testing and security audit sign-off.",
+      "projectId": 1,
+      "workstreamId": 5,
+      "ownerId": 6,
+      "plannedDate": "2026-10-28",
+      "actualDate": null,
+      "status": "In Progress",
+      "nameAr": "اكتمال اختبار القبول",
+      "descriptionAr": "اكتمال اختبارات قبول المستخدم الشاملة وتوقيع التدقيق الأمني."
+    },
+    {
+      "id": 5,
+      "name": "Go Live",
+      "description": "Production launch of Customer Portal Implementation.",
+      "projectId": 1,
+      "workstreamId": 6,
+      "ownerId": 2,
+      "plannedDate": "2026-11-15",
+      "actualDate": null,
+      "status": "Planned",
+      "nameAr": "الإطلاق الفعلي",
+      "descriptionAr": "الإطلاق الإنتاجي الرسمي لمشروع بوابة خدمة العملاء."
+    },
+    {
+      "id": 6,
+      "name": "Service Desk Sync Live",
+      "description": "Production cutover of bi-directional ticket sync.",
+      "projectId": 2,
+      "workstreamId": 7,
+      "ownerId": 3,
+      "plannedDate": "2026-10-20",
+      "actualDate": null,
+      "status": "In Progress",
+      "nameAr": "تشغيل مزامنة مكتب الدعم",
+      "descriptionAr": "التشغيل الفعلي للمزامنة ثنائية الاتجاه لتذاكر الدعم."
+    },
+    {
+      "id": 7,
+      "name": "Core Warehouse Cutover",
+      "description": "Legacy tables retired and reporting pointed to new warehouse.",
+      "projectId": 3,
+      "workstreamId": 8,
+      "ownerId": 3,
+      "plannedDate": "2026-10-18",
+      "actualDate": null,
+      "status": "Planned",
+      "nameAr": "التحول إلى مستودع البيانات الأساسي",
+      "descriptionAr": "إيقاف الجداول التقليدية وتوجيه التقارير إلى مستودع البيانات الجديد."
+    }
+  ],
+  "activities": [
+    {
+      "id": 1,
+      "name": "Prepare Requirements Document",
+      "description": "Gather and baseline functional and security requirements for Customer Portal.",
+      "projectId": 1,
+      "workstreamId": 1,
+      "milestoneId": 1,
+      "parentActivityId": null,
+      "assignedUserId": 4,
+      "startDate": "2026-01-22",
+      "dueDate": "2026-03-15",
+      "status": "Completed",
+      "priority": "High",
+      "progressPercentage": 100,
+      "nameAr": "إعداد وثيقة المتطلبات",
+      "descriptionAr": "تجميع واعتماد المتطلبات الوظيفية والأمنية لبوابة المستفيد."
+    },
+    {
+      "id": 2,
+      "name": "Create Portal Wireframes & Design System",
+      "description": "Interactive Figma prototypes and WCAG contrast validation.",
+      "projectId": 1,
+      "workstreamId": 2,
+      "milestoneId": 2,
+      "parentActivityId": null,
+      "assignedUserId": 4,
+      "startDate": "2026-03-16",
+      "dueDate": "2026-05-15",
+      "status": "Completed",
+      "priority": "High",
+      "progressPercentage": 100,
+      "nameAr": "تصميم النماذج الأولية ونظام التصميم للبوابة",
+      "descriptionAr": "إعداد نماذج التصميم التفاعلية والتحقق من تباين الواجهات."
+    },
+    {
+      "id": 3,
+      "name": "Implement Core Billing & Auth APIs",
+      "description": "Build ASP.NET Core endpoints for customer authentication and invoice retrieval.",
+      "projectId": 1,
+      "workstreamId": 3,
+      "milestoneId": 3,
+      "parentActivityId": null,
+      "assignedUserId": 5,
+      "startDate": "2026-05-16",
+      "dueDate": "2026-08-25",
+      "status": "Completed",
+      "priority": "Critical",
+      "progressPercentage": 100,
+      "nameAr": "تطوير واجهات برمجة الفواتير والمصادقة الأساسية",
+      "descriptionAr": "بناء نقاط النهاية البرمجية لمصادقة العملاء واسترجاع الفواتير."
+    },
+    {
+      "id": 4,
+      "name": "Develop Angular Self-Service Portal Views",
+      "description": "Build account dashboard, invoice table, and ticket submission UI.",
+      "projectId": 1,
+      "workstreamId": 4,
+      "milestoneId": 3,
+      "parentActivityId": null,
+      "assignedUserId": 5,
+      "startDate": "2026-06-15",
+      "dueDate": "2026-09-28",
+      "status": "In Progress",
+      "priority": "High",
+      "progressPercentage": 50,
+      "nameAr": "تطوير شاشات بوابة الخدمة الذاتية",
+      "descriptionAr": "بناء لوحة حساب المستفيد وجدول الفواتير ونموذج تقديم التذاكر."
+    },
+    {
+      "id": 5,
+      "name": "Execute Security Audit & UAT Cycles",
+      "description": "Run penetration testing and business stakeholder acceptance test cases.",
+      "projectId": 1,
+      "workstreamId": 5,
+      "milestoneId": 4,
+      "parentActivityId": null,
+      "assignedUserId": 6,
+      "startDate": "2026-09-29",
+      "dueDate": "2026-10-28",
+      "status": "In Progress",
+      "priority": "High",
+      "progressPercentage": 25,
+      "nameAr": "تنفيذ التدقيق الأمني ودورات اختبار القبول",
+      "descriptionAr": "إجراء اختبارات الاختراق وحالات اختبار قبول أصحاب المصلحة."
+    },
+    {
+      "id": 6,
+      "name": "Execute Production Deployment & Cutover",
+      "description": "Deploy containers, run smoke tests, and switch production traffic.",
+      "projectId": 1,
+      "workstreamId": 6,
+      "milestoneId": 5,
+      "parentActivityId": null,
+      "assignedUserId": 2,
+      "startDate": "2026-11-01",
+      "dueDate": "2026-11-15",
+      "status": "Not Started",
+      "priority": "Critical",
+      "progressPercentage": 0,
+      "nameAr": "تنفيذ النشر الإنتاجي والتحول التشغيلي",
+      "descriptionAr": "نشر الحاويات وإجراء الاختبارات الأولية وتحويل حركة التشغيل الفعلي."
+    },
+    {
+      "id": 7,
+      "name": "Configure Webhook Listeners for Support Escalations",
+      "description": "Create real-time event handlers for high-priority ticket routing.",
+      "projectId": 2,
+      "workstreamId": 7,
+      "milestoneId": 6,
+      "parentActivityId": null,
+      "assignedUserId": 4,
+      "startDate": "2026-03-10",
+      "dueDate": "2026-09-25",
+      "status": "In Progress",
+      "priority": "Medium",
+      "progressPercentage": 60,
+      "nameAr": "تهيئة مستمعات الإشعارات الفورية لتصعيد الدعم",
+      "descriptionAr": "إنشاء معالجات الأحداث الفورية لتوجيه تذاكر الدعم عالية الأولوية."
+    },
+    {
+      "id": 8,
+      "name": "Provision MySQL 8 Staging & Analytics Schemas",
+      "description": "Establish relational schemas, indexes, and backup policies.",
+      "projectId": 3,
+      "workstreamId": 8,
+      "milestoneId": 7,
+      "parentActivityId": null,
+      "assignedUserId": 6,
+      "startDate": "2026-02-20",
+      "dueDate": "2026-05-30",
+      "status": "Completed",
+      "priority": "Critical",
+      "progressPercentage": 100,
+      "nameAr": "تهيئة مخططات التجهيز والتحليلات في قاعدة البيانات",
+      "descriptionAr": "إنشاء المخططات العلائقية والفهارس وسياسات النسخ الاحتياطي."
+    },
+    {
+      "id": 9,
+      "name": "Migrate Legacy Inventory Tables to Core Warehouse",
+      "description": "Validate data integrity and execute incremental batch transformation.",
+      "projectId": 3,
+      "workstreamId": 8,
+      "milestoneId": 7,
+      "parentActivityId": null,
+      "assignedUserId": 5,
+      "startDate": "2026-06-01",
+      "dueDate": "2026-09-20",
+      "status": "In Progress",
+      "priority": "Critical",
+      "progressPercentage": 40,
+      "nameAr": "ترحيل جداول المخزون التقليدية إلى المستودع الأساسي",
+      "descriptionAr": "التحقق من سلامة البيانات وتنفيذ التحويل الدفعي التزايدي."
+    },
+    {
+      "id": 10,
+      "name": "User Acceptance Testing for ERP Invoice Engine",
+      "description": "Sign-off with corporate finance controllers on automated ledger postings.",
+      "projectId": 4,
+      "workstreamId": null,
+      "milestoneId": null,
+      "parentActivityId": null,
+      "assignedUserId": 4,
+      "startDate": "2026-06-01",
+      "dueDate": "2026-07-25",
+      "status": "Completed",
+      "priority": "High",
+      "progressPercentage": 100,
+      "nameAr": "اختبار قبول المستخدم لمحرك فواتير النظام المالي",
+      "descriptionAr": "الحصول على اعتماد المراقبين الماليين للقيود الآلية."
+    },
+    {
+      "id": 11,
+      "name": "Calibrate RFID Scanners in Distribution Center North",
+      "description": "Site survey and signal verification across loading docks.",
+      "projectId": 5,
+      "workstreamId": null,
+      "milestoneId": null,
+      "parentActivityId": null,
+      "assignedUserId": 6,
+      "startDate": "2026-03-01",
+      "dueDate": "2026-10-25",
+      "status": "In Progress",
+      "priority": "High",
+      "progressPercentage": 55,
+      "nameAr": "معايرة ماسحات تتبع الأصول في مركز التوزيع الشمالي",
+      "descriptionAr": "مسح الموقع والتحقق من جودة الإشارة عبر أرصفة التحميل."
+    },
+    {
+      "id": 12,
+      "name": "Interview stakeholders",
+      "description": "Conduct workshops with Customer Support and Billing leads.",
+      "projectId": 1,
+      "workstreamId": 1,
+      "milestoneId": 1,
+      "parentActivityId": 1,
+      "assignedUserId": 4,
+      "startDate": "2026-01-22",
+      "dueDate": "2026-02-05",
+      "status": "Completed",
+      "priority": "High",
+      "progressPercentage": 100,
+      "nameAr": "مقابلة أصحاب المصلحة",
+      "descriptionAr": "عقد ورش عمل مع قادة خدمة العملاء والفوترة."
+    },
+    {
+      "id": 13,
+      "name": "Document requirements",
+      "description": "Draft user stories and acceptance criteria.",
+      "projectId": 1,
+      "workstreamId": 1,
+      "milestoneId": 1,
+      "parentActivityId": 1,
+      "assignedUserId": 4,
+      "startDate": "2026-02-06",
+      "dueDate": "2026-02-20",
+      "status": "Completed",
+      "priority": "High",
+      "progressPercentage": 100,
+      "nameAr": "توثيق المتطلبات",
+      "descriptionAr": "صياغة قصص المستخدم ومعايير القبول."
+    },
+    {
+      "id": 14,
+      "name": "Review requirements",
+      "description": "Peer review with architecture and security teams.",
+      "projectId": 1,
+      "workstreamId": 1,
+      "milestoneId": 1,
+      "parentActivityId": 1,
+      "assignedUserId": 5,
+      "startDate": "2026-02-21",
+      "dueDate": "2026-03-05",
+      "status": "Completed",
+      "priority": "Medium",
+      "progressPercentage": 100,
+      "nameAr": "مراجعة المتطلبات",
+      "descriptionAr": "مراجعة الأقران مع فرق البنية والأمن السيبراني."
+    },
+    {
+      "id": 15,
+      "name": "Obtain approval",
+      "description": "Formal sign-off from Steering Committee.",
+      "projectId": 1,
+      "workstreamId": 1,
+      "milestoneId": 1,
+      "parentActivityId": 1,
+      "assignedUserId": 2,
+      "startDate": "2026-03-06",
+      "dueDate": "2026-03-15",
+      "status": "Completed",
+      "priority": "High",
+      "progressPercentage": 100,
+      "nameAr": "الحصول على الاعتماد",
+      "descriptionAr": "الاعتماد الرسمي من اللجنة التوجيهية."
+    },
+    {
+      "id": 16,
+      "name": "Build Customer Login & Session Guard",
+      "description": "Implement JWT interceptor and role guard.",
+      "projectId": 1,
+      "workstreamId": 4,
+      "milestoneId": 3,
+      "parentActivityId": 4,
+      "assignedUserId": 5,
+      "startDate": "2026-06-15",
+      "dueDate": "2026-07-15",
+      "status": "Completed",
+      "priority": "High",
+      "progressPercentage": 100,
+      "nameAr": "بناء شاشة دخول المستفيد وحماية الجلسة",
+      "descriptionAr": "تطبيق معترض رموز المصادقة وحماية الأدوار."
+    },
+    {
+      "id": 17,
+      "name": "Build Invoice & Statement Download Grid",
+      "description": "Sortable table with PDF statement download.",
+      "projectId": 1,
+      "workstreamId": 4,
+      "milestoneId": 3,
+      "parentActivityId": 4,
+      "assignedUserId": 5,
+      "startDate": "2026-07-16",
+      "dueDate": "2026-08-20",
+      "status": "Completed",
+      "priority": "High",
+      "progressPercentage": 100,
+      "nameAr": "بناء جدول الفواتير وتحميل الكشوفات",
+      "descriptionAr": "جدول قابل للفرز مع إمكانية تنزيل كشف الحساب."
+    },
+    {
+      "id": 18,
+      "name": "Build Support Ticket Submission Form",
+      "description": "Reactive form with priority selector.",
+      "projectId": 1,
+      "workstreamId": 4,
+      "milestoneId": 3,
+      "parentActivityId": 4,
+      "assignedUserId": 5,
+      "startDate": "2026-08-21",
+      "dueDate": "2026-09-15",
+      "status": "In Progress",
+      "priority": "Medium",
+      "progressPercentage": 0,
+      "nameAr": "بناء نموذج إرسال تذاكر الدعم",
+      "descriptionAr": "نموذج تفاعلي مع محدد أولوية التذكرة."
+    },
+    {
+      "id": 19,
+      "name": "Build Subscription Upgrade Workflow",
+      "description": "Self-service plan comparison and checkout confirmation.",
+      "projectId": 1,
+      "workstreamId": 4,
+      "milestoneId": 3,
+      "parentActivityId": 4,
+      "assignedUserId": 4,
+      "startDate": "2026-09-16",
+      "dueDate": "2026-09-28",
+      "status": "Not Started",
+      "priority": "Medium",
+      "progressPercentage": 0,
+      "nameAr": "بناء مسار ترقية الاشتراك",
+      "descriptionAr": "مقارنة الباقات للخدمة الذاتية وتأكيد الطلب."
+    }
+  ],
+  "dependencies": [
+    {
+      "id": 1,
+      "predecessorTaskId": 1,
+      "successorTaskId": 2,
+      "dependencyType": "FinishToStart"
+    },
+    {
+      "id": 2,
+      "predecessorTaskId": 2,
+      "successorTaskId": 3,
+      "dependencyType": "FinishToStart"
+    },
+    {
+      "id": 3,
+      "predecessorTaskId": 2,
+      "successorTaskId": 4,
+      "dependencyType": "FinishToStart"
+    },
+    {
+      "id": 4,
+      "predecessorTaskId": 3,
+      "successorTaskId": 5,
+      "dependencyType": "FinishToStart"
+    },
+    {
+      "id": 5,
+      "predecessorTaskId": 4,
+      "successorTaskId": 5,
+      "dependencyType": "FinishToStart"
+    },
+    {
+      "id": 6,
+      "predecessorTaskId": 5,
+      "successorTaskId": 6,
+      "dependencyType": "FinishToStart"
+    },
+    {
+      "id": 7,
+      "predecessorTaskId": 8,
+      "successorTaskId": 9,
+      "dependencyType": "FinishToStart"
+    }
+  ],
+  "strategicPlans": [
+    {
+      "id": 1,
+      "titleAr": "الخطة الاستراتيجية للتحول الثقافي والمؤسسي (2026 - 2030)",
+      "titleEn": "Strategic Plan for Cultural & Institutional Transformation (2026 - 2030)",
+      "cycle": "2026 - 2030",
+      "yearsRange": [
+        "2026",
+        "2027",
+        "2028",
+        "2029",
+        "2030"
+      ],
+      "planType": "خطة خمسية استراتيجية",
+      "vision": "منظومة ثقافية رائدة عالمياً تسهم في تعزيز الاقتصاد المعرفي وتخليد الهوية الوطنية.",
+      "mission": "تمكين القطاع الثقافي عبر برامج استثمارية مستدامة، تحول رقمي متكامل، وتنمية الكفاءات الوطنية.",
+      "description": "الخطة الاستراتيجية الشاملة المعتمدة للصندوق الثقافي لتحقيق الاستدامة التمويلية وبناء الشراكات الاستراتيجية ورفع كفاءة الإنفاق الاستثماري.",
+      "strategicIssues": [
+        "الاستدامة المالية والتمويل المبتكر",
+        "التحول الرقمي وأتمتة الخدمات",
+        "تنمية رأس المال البشري والشراكات"
+      ],
+      "values": [
+        "الشفافية",
+        "الابتكار",
+        "الاستدامة",
+        "المرونة والريادة",
+        "التركيز على المستفيد"
+      ],
+      "perspectives": [
+        {
+          "id": "p1",
+          "name": "المنظور المالي والاستدامة",
+          "weight": 30,
+          "description": "كفاءة إدارة الموارد والتمويل التنموي",
+          "nameEn": "Financial & Sustainability Perspective",
+          "descriptionEn": "Resource management efficiency and developmental financing"
+        },
+        {
+          "id": "p2",
+          "name": "منظور المستفيدين وأصحاب المصلحة",
+          "weight": 25,
+          "description": "رضا المستثمرين ورواد الأعمال الثقافيين",
+          "nameEn": "Beneficiaries & Stakeholders Perspective",
+          "descriptionEn": "Satisfaction of investors and cultural entrepreneurs"
+        },
+        {
+          "id": "p3",
+          "name": "منظور العمليات الداخلية والحوكمة",
+          "weight": 25,
+          "description": "رقمنة العمليات والامتثال لمعايير الجودة",
+          "nameEn": "Internal Processes & Governance Perspective",
+          "descriptionEn": "Process digitization and compliance with quality standards"
+        },
+        {
+          "id": "p4",
+          "name": "منظور التعلم والنمو ورأس المال البشري",
+          "weight": 20,
+          "description": "استقطاب المواهب وتطوير بيئة العمل",
+          "nameEn": "Learning, Growth & Human Capital Perspective",
+          "descriptionEn": "Talent attraction and workplace development"
+        }
+      ],
+      "goals": [
+        {
+          "id": "g1",
+          "perspectiveId": "p1",
+          "perspectiveName": "المنظور المالي والاستدامة",
+          "title": "تنويع مصادر التمويل ورفع العائد الاستثماري للمحافظ",
+          "weight": 15,
+          "code": "GOAL-FIN-01",
+          "perspectiveNameEn": "Financial & Sustainability Perspective",
+          "titleEn": "Diversify funding sources and raise portfolio investment returns"
+        },
+        {
+          "id": "g2",
+          "perspectiveId": "p1",
+          "perspectiveName": "المنظور المالي والاستدامة",
+          "title": "ترشيد النفقات التشغيلية وضمان الاستدامة الائتمانية",
+          "weight": 15,
+          "code": "GOAL-FIN-02",
+          "perspectiveNameEn": "Financial & Sustainability Perspective",
+          "titleEn": "Rationalize operating expenses and ensure credit sustainability"
+        },
+        {
+          "id": "g3",
+          "perspectiveId": "p2",
+          "perspectiveName": "منظور المستفيدين وأصحاب المصلحة",
+          "title": "توسيع نطاق الدعم للشركات الناشئة في القطاع الثقافي",
+          "weight": 15,
+          "code": "GOAL-BEN-01",
+          "perspectiveNameEn": "Beneficiaries & Stakeholders Perspective",
+          "titleEn": "Expand support scope for startups in the cultural sector"
+        },
+        {
+          "id": "g4",
+          "perspectiveId": "p2",
+          "perspectiveName": "منظور المستفيدين وأصحاب المصلحة",
+          "title": "رفع مؤشر رضا المستفيدين والشركاء إلى أكثر من 90%",
+          "weight": 10,
+          "code": "GOAL-BEN-02",
+          "perspectiveNameEn": "Beneficiaries & Stakeholders Perspective",
+          "titleEn": "Raise beneficiary and partner satisfaction index above 90%"
+        },
+        {
+          "id": "g5",
+          "perspectiveId": "p3",
+          "perspectiveName": "منظور العمليات الداخلية والحوكمة",
+          "title": "أتمتة دورة حياة التمويل والمنح بنسبة 100%",
+          "weight": 15,
+          "code": "GOAL-PROC-01",
+          "perspectiveNameEn": "Internal Processes & Governance Perspective",
+          "titleEn": "Automate the funding and grants lifecycle 100%"
+        },
+        {
+          "id": "g6",
+          "perspectiveId": "p3",
+          "perspectiveName": "منظور العمليات الداخلية والحوكمة",
+          "title": "تطبيق أعلى معايير الحوكمة وإدارة المخاطر المؤسسية",
+          "weight": 10,
+          "code": "GOAL-PROC-02",
+          "perspectiveNameEn": "Internal Processes & Governance Perspective",
+          "titleEn": "Apply the highest standards of governance and enterprise risk management"
+        },
+        {
+          "id": "g7",
+          "perspectiveId": "p4",
+          "perspectiveName": "منظور التعلم والنمو ورأس المال البشري",
+          "title": "بناء كفاءات تخصصية في الاستثمار والتقييم الثقافي",
+          "weight": 10,
+          "code": "GOAL-LRN-01",
+          "perspectiveNameEn": "Learning, Growth & Human Capital Perspective",
+          "titleEn": "Build specialized competencies in cultural investment and appraisal"
+        },
+        {
+          "id": "g8",
+          "perspectiveId": "p4",
+          "perspectiveName": "منظور التعلم والنمو ورأس المال البشري",
+          "title": "ترسيخ ثقافة الابتكار والتحسين المستمر",
+          "weight": 10,
+          "code": "GOAL-LRN-02",
+          "perspectiveNameEn": "Learning, Growth & Human Capital Perspective",
+          "titleEn": "Embed a culture of innovation and continuous improvement"
+        }
+      ],
+      "seminarCard": {
+        "organizer": "الإدارة العامة للاستراتيجية والتميز المؤسسي",
+        "venue": "قاعة المؤتمرات الكبرى - المقر الرئيسي",
+        "sessionDate": "2026-01-10",
+        "executiveSummary": "تم اعتماد الخطة بعد جلسات عمل تشاركية شملت قيادات الصندوق وكبار أصحاب المصلحة.",
+        "strategicPillars": [
+          "التمكين المالي",
+          "البنية التحتية الرقمية",
+          "الأثر الثقافي والاجتماعي"
+        ],
+        "keyStakeholders": "وزارة الثقافة، هيئة الترفيه، البنوك الشريكة، مجتمع رواد الأعمال",
+        "kpiFramework": "بطاقة الأداء المتوازن",
+        "budgetNotes": "ميزانية استثمارية معتمدة عبر خطوط الائتمان الاستراتيجي",
+        "notes": "تخضع الخطة لمراجعة ربع سنوية من قبل لجنة الاستراتيجية والمخاطر.",
+        "organizerEn": "General Directorate of Strategy & Institutional Excellence",
+        "venueEn": "Grand Conference Hall - Headquarters",
+        "executiveSummaryEn": "The plan was approved following participatory workshops involving Fund leadership and senior stakeholders.",
+        "strategicPillarsEn": [
+          "Financial Enablement",
+          "Digital Infrastructure",
+          "Cultural & Social Impact"
+        ],
+        "keyStakeholdersEn": "Ministry of Culture, Entertainment Authority, Partner Banks, Entrepreneurship Community",
+        "kpiFrameworkEn": "Balanced Scorecard",
+        "budgetNotesEn": "Approved investment budget across strategic credit lines",
+        "notesEn": "The plan undergoes quarterly review by the Strategy and Risk Committee."
+      },
+      "status": "Approved",
+      "createdAt": "2026-01-15T08:00:00Z",
+      "updatedAt": "2026-02-01T10:30:00Z",
+      "planTypeEn": "Five-Year Strategic Plan",
+      "visionEn": "A globally leading cultural ecosystem contributing to the knowledge economy and preserving national identity.",
+      "missionEn": "Empowering the cultural sector through sustainable investment programs, integrated digital transformation, and national capability building.",
+      "descriptionEn": "The comprehensive strategic plan adopted by the Cultural Development Fund to achieve financial sustainability, build strategic partnerships, and improve investment spending efficiency.",
+      "strategicIssuesEn": [
+        "Financial Sustainability & Innovative Financing",
+        "Digital Transformation & Service Automation",
+        "Human Capital Development & Partnerships"
+      ],
+      "valuesEn": [
+        "Transparency",
+        "Innovation",
+        "Sustainability",
+        "Agility & Leadership",
+        "Beneficiary Focus"
+      ]
+    }
+  ],
+  "strategicInitiatives": [
+    {
+      "id": 1,
+      "title": "برنامج المنح والحوافز للمشاريع الإبداعية الثقافية",
+      "code": "INIT-2026-001",
+      "domains": [
+        "التمويل التنموي",
+        "الصناعات الإبداعية",
+        "التحول الرقمي"
+      ],
+      "planId": 1,
+      "departmentId": 1,
+      "section": "قسم التمويل التنموي",
+      "planType": "خطة خمسية استراتيجية",
+      "indicator": "قيمة التمويلات المصروفة للمشاريع المستهدفة (مليون ريال)",
+      "goalId": "g3",
+      "organizationUnit": "الصندوق الثقافي",
+      "cycle": "2026 - 2030",
+      "years": [
+        "2026",
+        "2027"
+      ],
+      "startDate": "2026-02-01",
+      "endDate": "2027-12-31",
+      "status": "Approved",
+      "createdAt": "2026-02-01T09:00:00Z",
+      "updatedAt": "2026-02-15T11:00:00Z",
+      "titleEn": "Grants & Incentives Program for Creative Cultural Projects",
+      "domainsEn": [
+        "Developmental Finance",
+        "Creative Industries",
+        "Digital Transformation"
+      ],
+      "sectionEn": "Developmental Finance Division",
+      "planTypeEn": "Five-Year Strategic Plan",
+      "indicatorEn": "Value of disbursed financing to targeted projects (Million SAR)",
+      "organizationUnitEn": "Cultural Development Fund"
+    },
+    {
+      "id": 2,
+      "title": "بوابة المستثمر الثقافي الرقمية الموحدة",
+      "code": "INIT-2026-002",
+      "domains": [
+        "التحول الرقمي",
+        "تجربة المستفيد"
+      ],
+      "planId": 1,
+      "departmentId": 1,
+      "section": "قسم الحلول الرقمية وتطوير الأنظمة",
+      "planType": "خطة خمسية استراتيجية",
+      "indicator": "نسبة المعاملات المكتملة رقمياً بالكامل",
+      "goalId": "g5",
+      "organizationUnit": "الصندوق الثقافي",
+      "cycle": "2026 - 2030",
+      "years": [
+        "2026"
+      ],
+      "startDate": "2026-03-01",
+      "endDate": "2026-11-30",
+      "status": "Draft",
+      "createdAt": "2026-03-01T10:00:00Z",
+      "updatedAt": "2026-03-10T14:00:00Z",
+      "titleEn": "Unified Digital Cultural Investor Portal",
+      "domainsEn": [
+        "Digital Transformation",
+        "Beneficiary Experience"
+      ],
+      "sectionEn": "Digital Solutions & Systems Development Division",
+      "planTypeEn": "Five-Year Strategic Plan",
+      "indicatorEn": "Percentage of fully digitally completed transactions",
+      "organizationUnitEn": "Cultural Development Fund"
+    }
+  ],
+  "strategicActivities": [
+    {
+      "id": 1,
+      "name": "إطلاق مسار التمويل السريع للحرف اليدوية والفنون البصرية",
+      "source": "أساس",
+      "domains": [
+        "الصناعات الإبداعية",
+        "التمويل التنموي"
+      ],
+      "indicator": "عدد المنشآت الصغيرة المستفيدة من التمويل السريع",
+      "initiativeId": 1,
+      "departmentId": 1,
+      "section": "قسم التمويل التنموي",
+      "startDate": "2026-03-01",
+      "endDate": "2026-08-31",
+      "targetValue": 150,
+      "activityValue": 2500000,
+      "isDevelopmentalProject": true,
+      "isExecutiveBodyActivity": true,
+      "status": "Approved",
+      "chatter": [
+        {
+          "id": "c_1794294462130",
+          "type": "message",
+          "author": "مستخدم النظام",
+          "authorRole": "مدير مكتب إدارة المشاريع",
+          "content": "تمت مراجعة ميزانية النشاط والتحقق من توافقها مع مستهدفات الخطة.",
+          "timestamp": "2026-11-10 07:07",
+          "authorEn": "System User",
+          "authorRoleEn": "PMO Manager",
+          "contentEn": "Activity budget reviewed and verified for alignment with strategic plan targets."
+        },
+        {
+          "id": "c1",
+          "type": "audit_log",
+          "author": "النظام",
+          "authorRole": "النظام",
+          "content": "تم إنشاء النشاط بحالة مسودة بواسطة مدير التخطيط.",
+          "timestamp": "2026-03-01 09:30",
+          "authorEn": "System",
+          "authorRoleEn": "System",
+          "contentEn": "Activity created in Draft status by the Planning Manager."
+        },
+        {
+          "id": "c2",
+          "type": "internal_note",
+          "author": "إلينا فانس",
+          "authorRole": "مدير مكتب إدارة المشاريع",
+          "content": "تم استيفاء دراسة الجدوى وتحديد الميزانية بالتنسيق مع الإدارة المالية.",
+          "timestamp": "2026-03-05 11:15",
+          "authorEn": "Elena Vance",
+          "authorRoleEn": "PMO Manager",
+          "contentEn": "Feasibility study completed and budget finalized in coordination with Finance."
+        },
+        {
+          "id": "c3",
+          "type": "message",
+          "author": "ماركوس ستيرلينغ",
+          "authorRole": "مدير المشروع",
+          "content": "تم تعميد النشاط بنجاح وجاهز لبدء مرحلة الإطلاق الميداني.",
+          "timestamp": "2026-03-10 14:20",
+          "authorEn": "Marcus Sterling",
+          "authorRoleEn": "Project Manager",
+          "contentEn": "Activity approved successfully and ready to commence field rollout."
+        }
+      ],
+      "createdAt": "2026-03-01T09:30:00Z",
+      "updatedAt": "2026-11-10T07:07:42.206Z",
+      "nameEn": "Launch Fast-Track Financing Path for Handicrafts & Visual Arts",
+      "sourceEn": "Base System",
+      "domainsEn": [
+        "Creative Industries",
+        "Developmental Finance"
+      ],
+      "indicatorEn": "Number of small enterprises benefiting from fast-track financing",
+      "sectionEn": "Developmental Finance Division"
+    },
+    {
+      "id": 2,
+      "name": "تطوير محرك حاسبة التمويل والملاءة المالية في بوابة المستثمر",
+      "source": "أساس",
+      "domains": [
+        "التحول الرقمي"
+      ],
+      "indicator": "زمن دراسة الطلب الائتماني (أيام عمل)",
+      "initiativeId": 2,
+      "departmentId": 1,
+      "section": "قسم الحلول الرقمية وتطوير الأنظمة",
+      "startDate": "2026-04-01",
+      "endDate": "2026-07-31",
+      "targetValue": 3,
+      "activityValue": 850000,
+      "isDevelopmentalProject": false,
+      "isExecutiveBodyActivity": true,
+      "status": "Draft",
+      "chatter": [
+        {
+          "id": "c4",
+          "type": "audit_log",
+          "author": "النظام",
+          "authorRole": "النظام",
+          "content": "تم إنشاء النشاط بحالة مسودة.",
+          "timestamp": "2026-04-01 10:00",
+          "authorEn": "System",
+          "authorRoleEn": "System",
+          "contentEn": "Activity created in Draft status."
+        }
+      ],
+      "createdAt": "2026-04-01T10:00:00Z",
+      "updatedAt": "2026-04-01T10:00:00Z",
+      "nameEn": "Develop Financing & Creditworthiness Calculator Engine in Investor Portal",
+      "sourceEn": "Base System",
+      "domainsEn": [
+        "Digital Transformation"
+      ],
+      "indicatorEn": "Credit application review turnaround time (business days)",
+      "sectionEn": "Digital Solutions & Systems Development Division"
+    }
+  ],
+  "systemSettings": {
+    "menuVisibility": {
+      "strategic-planning": true,
+      "departments": true,
+      "portfolios": true,
+      "initiatives": true,
+      "projects": true,
+      "project-workspace": true,
+      "dashboard": true,
+      "hierarchy": true,
+      "workstreams": false,
+      "milestones": false,
+      "activities": true,
+      "users": true,
+      "scheduling": true,
+      "pmo-management": true,
+      "pmo-dashboard": true,
+      "progress-tracking": true,
+      "overdue-activities": true,
+      "activity-search": true
+    },
+    "screenLabels": {
+      "strategic-planning": {
+        "ar": "التخطيط الاستراتيجي",
+        "en": "Strategic Planning"
+      },
+      "departments": {
+        "ar": "01. الإدارات",
+        "en": "01. Departments"
+      },
+      "portfolios": {
+        "ar": "02. محافظ الأعمال",
+        "en": "02. Portfolios"
+      },
+      "initiatives": {
+        "ar": "03. المبادرات",
+        "en": "03. Initiatives"
+      },
+      "projects": {
+        "ar": "04. المشاريع",
+        "en": "04. Projects"
+      },
+      "project-workspace": {
+        "ar": "مساحة عمل المشروع",
+        "en": "Project Workspace"
+      },
+      "dashboard": {
+        "ar": "لوحة القيادة والمؤشرات",
+        "en": "Dashboard"
+      },
+      "hierarchy": {
+        "ar": "الهيكل التنظيمي",
+        "en": "Hierarchy Explorer"
+      },
+      "workstreams": {
+        "ar": "05. مسارات العمل",
+        "en": "05. Workstreams"
+      },
+      "milestones": {
+        "ar": "06. المعالم الرئيسية",
+        "en": "06. Milestones"
+      },
+      "activities": {
+        "ar": "07. إدارة الأنشطة",
+        "en": "07. Activities"
+      },
+      "users": {
+        "ar": "08. المستخدمون والأدوار",
+        "en": "08. Users & Roles"
+      },
+      "scheduling": {
+        "ar": "09. جدولة المشاريع",
+        "en": "09. Project Scheduling"
+      },
+      "pmo-management": {
+        "ar": "إدارة المشاريع",
+        "en": "PMO Management"
+      },
+      "pmo-dashboard": {
+        "ar": "لوحة تحكم مكتب المشاريع",
+        "en": "PMO Dashboard"
+      },
+      "progress-tracking": {
+        "ar": "تتبع الإنجاز",
+        "en": "Progress Tracking"
+      },
+      "overdue-activities": {
+        "ar": "الأنشطة المتأخرة",
+        "en": "Overdue Activities"
+      },
+      "activity-search": {
+        "ar": "البحث عن الأنشطة",
+        "en": "Activity Search"
+      }
+    },
+    "screenSchemas": {
+      "strategic-plans": {
+        "screenId": "strategic-plans",
+        "nameAr": "الخطط الاستراتيجية",
+        "nameEn": "Strategic Plans",
+        "category": "strategic",
+        "fields": [
+          {
+            "key": "titleAr",
+            "labelAr": "اسم الخطة الاستراتيجية",
+            "labelEn": "Strategic Plan Title",
+            "type": "text",
+            "required": true,
+            "visible": true
+          },
+          {
+            "key": "titleEn",
+            "labelAr": "اسم الخطة بالإنجليزية",
+            "labelEn": "Secondary Plan Title",
+            "type": "text",
+            "required": false,
+            "visible": true
+          },
+          {
+            "key": "cycle",
+            "labelAr": "الدورة الزمنية",
+            "labelEn": "Cycle / Period",
+            "type": "select",
+            "required": true,
+            "visible": true,
+            "options": [
+              "2024 - 2026",
+              "2025 - 2027",
+              "2026 - 2030",
+              "2030 - 2035"
+            ]
+          },
+          {
+            "key": "yearsRange",
+            "labelAr": "السنوات المشمولة",
+            "labelEn": "Years Range",
+            "type": "text",
+            "required": true,
+            "visible": true
+          },
+          {
+            "key": "planType",
+            "labelAr": "نوع الخطة",
+            "labelEn": "Plan Type",
+            "type": "select",
+            "required": true,
+            "visible": true,
+            "options": [
+              "خطة خمسية استراتيجية",
+              "خطة ثلاثية متوسطة المدى",
+              "خطة تحول سنوية",
+              "خطة طوارئ واستجابة"
+            ],
+            "optionsEn": [
+              "Five-Year Strategic Plan",
+              "Three-Year Medium-Term Plan",
+              "Annual Transformation Plan",
+              "Emergency & Response Plan"
+            ]
+          },
+          {
+            "key": "vision",
+            "labelAr": "الرؤية",
+            "labelEn": "Vision",
+            "type": "textarea",
+            "required": false,
+            "visible": true
+          },
+          {
+            "key": "mission",
+            "labelAr": "الرسالة",
+            "labelEn": "Mission",
+            "type": "textarea",
+            "required": false,
+            "visible": true
+          },
+          {
+            "key": "description",
+            "labelAr": "الوصف والملخص التنفيذي",
+            "labelEn": "Description & Executive Summary",
+            "type": "textarea",
+            "required": false,
+            "visible": true
+          },
+          {
+            "key": "strategicIssues",
+            "labelAr": "القضايا الاستراتيجية",
+            "labelEn": "Strategic Issues",
+            "type": "text",
+            "required": false,
+            "visible": true
+          },
+          {
+            "key": "values",
+            "labelAr": "القيم المؤسسية",
+            "labelEn": "Institutional Values",
+            "type": "text",
+            "required": false,
+            "visible": true
+          },
+          {
+            "key": "cf_priority_track",
+            "labelAr": "المسار ذو الأولوية الوطنية",
+            "labelEn": "National Priority Track",
+            "type": "select",
+            "required": true,
+            "visible": true,
+            "isCustom": true,
+            "options": [
+              "المسار الذهبي",
+              "المسار الفضي",
+              "المسار الاستراتيجي"
+            ],
+            "placeholder": "",
+            "defaultValue": "",
+            "helpText": "",
+            "optionsEn": [
+              "Golden Track",
+              "Silver Track",
+              "Strategic Track"
+            ]
+          }
+        ]
+      },
+      "strategic-initiatives": {
+        "screenId": "strategic-initiatives",
+        "nameAr": "المبادرات والبرامج",
+        "nameEn": "Initiatives & Programs",
+        "category": "strategic",
+        "fields": [
+          {
+            "key": "title",
+            "labelAr": "إسم المبادرة / البرنامج",
+            "labelEn": "Initiative Title",
+            "type": "text",
+            "required": true,
+            "visible": true
+          },
+          {
+            "key": "domains",
+            "labelAr": "المجالات",
+            "labelEn": "Domains / Sectors",
+            "type": "text",
+            "required": false,
+            "visible": true
+          },
+          {
+            "key": "planId",
+            "labelAr": "الخطة الإستراتيجية المرتبطة",
+            "labelEn": "Linked Strategic Plan",
+            "type": "select",
+            "required": true,
+            "visible": true
+          },
+          {
+            "key": "departmentId",
+            "labelAr": "الإدارة المسؤولة",
+            "labelEn": "Department",
+            "type": "select",
+            "required": true,
+            "visible": true
+          },
+          {
+            "key": "section",
+            "labelAr": "القسم / الوحدة",
+            "labelEn": "Section / Division",
+            "type": "text",
+            "required": false,
+            "visible": true
+          },
+          {
+            "key": "planType",
+            "labelAr": "نوع الخطة",
+            "labelEn": "Plan Type",
+            "type": "text",
+            "required": false,
+            "visible": true
+          },
+          {
+            "key": "indicator",
+            "labelAr": "مؤشر الأداء",
+            "labelEn": "KPI Indicator",
+            "type": "text",
+            "required": false,
+            "visible": true
+          },
+          {
+            "key": "goalId",
+            "labelAr": "الهدف الاستراتيجي",
+            "labelEn": "Strategic Goal",
+            "type": "select",
+            "required": true,
+            "visible": true
+          },
+          {
+            "key": "organizationUnit",
+            "labelAr": "المنظمة / الكيان",
+            "labelEn": "Organization Unit",
+            "type": "text",
+            "required": false,
+            "visible": true,
+            "defaultValue": "الصندوق الثقافي",
+            "defaultValueEn": "Cultural Development Fund"
+          },
+          {
+            "key": "cycle",
+            "labelAr": "الدورة",
+            "labelEn": "Cycle",
+            "type": "text",
+            "required": false,
+            "visible": true
+          },
+          {
+            "key": "startDate",
+            "labelAr": "تاريخ البدء",
+            "labelEn": "Start Date",
+            "type": "date",
+            "required": false,
+            "visible": true
+          },
+          {
+            "key": "endDate",
+            "labelAr": "تاريخ الانتهاء",
+            "labelEn": "End Date",
+            "type": "date",
+            "required": false,
+            "visible": true
+          }
+        ]
+      },
+      "strategic-activities": {
+        "screenId": "strategic-activities",
+        "nameAr": "الأنشطة الاستراتيجية",
+        "nameEn": "Strategic Activities",
+        "category": "strategic",
+        "fields": [
+          {
+            "key": "name",
+            "labelAr": "النشاط",
+            "labelEn": "Activity Name",
+            "type": "text",
+            "required": true,
+            "visible": true
+          },
+          {
+            "key": "source",
+            "labelAr": "المصدر",
+            "labelEn": "Source",
+            "type": "text",
+            "required": false,
+            "visible": true,
+            "defaultValue": "أساس",
+            "defaultValueEn": "Base System"
+          },
+          {
+            "key": "domains",
+            "labelAr": "المجالات",
+            "labelEn": "Domains",
+            "type": "text",
+            "required": false,
+            "visible": true
+          },
+          {
+            "key": "indicator",
+            "labelAr": "المؤشر المرتبط",
+            "labelEn": "KPI Indicator",
+            "type": "text",
+            "required": false,
+            "visible": true
+          },
+          {
+            "key": "initiativeId",
+            "labelAr": "البرامج / المبادرة",
+            "labelEn": "Parent Program / Initiative",
+            "type": "select",
+            "required": true,
+            "visible": true
+          },
+          {
+            "key": "departmentId",
+            "labelAr": "الإدارة",
+            "labelEn": "Department",
+            "type": "select",
+            "required": true,
+            "visible": true
+          },
+          {
+            "key": "section",
+            "labelAr": "القسم",
+            "labelEn": "Section",
+            "type": "text",
+            "required": false,
+            "visible": true
+          },
+          {
+            "key": "startDate",
+            "labelAr": "تاريخ البدء",
+            "labelEn": "Start Date",
+            "type": "date",
+            "required": false,
+            "visible": true
+          },
+          {
+            "key": "endDate",
+            "labelAr": "تاريخ الانتهاء",
+            "labelEn": "End Date",
+            "type": "date",
+            "required": false,
+            "visible": true
+          },
+          {
+            "key": "targetValue",
+            "labelAr": "مستهدف المؤشر",
+            "labelEn": "Indicator Target Value",
+            "type": "number",
+            "required": false,
+            "visible": true,
+            "defaultValue": 0
+          },
+          {
+            "key": "activityValue",
+            "labelAr": "قيمة النشاط والميزانية",
+            "labelEn": "Activity Budget (SAR)",
+            "type": "number",
+            "required": false,
+            "visible": true,
+            "defaultValue": 0
+          },
+          {
+            "key": "isDevelopmentalProject",
+            "labelAr": "مشروع تنموي",
+            "labelEn": "Developmental Project Flag",
+            "type": "boolean",
+            "required": false,
+            "visible": true,
+            "defaultValue": false
+          },
+          {
+            "key": "isExecutiveBodyActivity",
+            "labelAr": "نشاط الهيئة التنفيذية",
+            "labelEn": "Executive Body Activity Flag",
+            "type": "boolean",
+            "required": false,
+            "visible": true,
+            "defaultValue": false
+          }
+        ]
+      },
+      "projects": {
+        "screenId": "projects",
+        "nameAr": "المشاريع التنفيذية",
+        "nameEn": "Projects",
+        "category": "pmo",
+        "fields": [
+          {
+            "key": "name",
+            "labelAr": "اسم المشروع",
+            "labelEn": "Project Name",
+            "type": "text",
+            "required": true,
+            "visible": true
+          },
+          {
+            "key": "description",
+            "labelAr": "وصف المشروع ونطاق العمل",
+            "labelEn": "Description & Scope",
+            "type": "textarea",
+            "required": false,
+            "visible": true
+          },
+          {
+            "key": "departmentId",
+            "labelAr": "الإدارة التابعة",
+            "labelEn": "Department",
+            "type": "select",
+            "required": true,
+            "visible": true
+          },
+          {
+            "key": "portfolioId",
+            "labelAr": "محفظة الأعمال",
+            "labelEn": "Portfolio",
+            "type": "select",
+            "required": true,
+            "visible": true
+          },
+          {
+            "key": "initiativeId",
+            "labelAr": "المبادرة الاستراتيجية",
+            "labelEn": "Initiative",
+            "type": "select",
+            "required": true,
+            "visible": true
+          },
+          {
+            "key": "startDate",
+            "labelAr": "تاريخ البداية المخطط",
+            "labelEn": "Planned Start Date",
+            "type": "date",
+            "required": true,
+            "visible": true
+          },
+          {
+            "key": "endDate",
+            "labelAr": "تاريخ النهاية المخطط",
+            "labelEn": "Planned End Date",
+            "type": "date",
+            "required": true,
+            "visible": true
+          },
+          {
+            "key": "status",
+            "labelAr": "حالة المشروع",
+            "labelEn": "Project Status",
+            "type": "select",
+            "required": true,
+            "visible": true,
+            "options": [
+              "Draft",
+              "Active",
+              "In Progress",
+              "Completed",
+              "On Hold",
+              "Cancelled"
+            ]
+          },
+          {
+            "key": "priority",
+            "labelAr": "الأولوية",
+            "labelEn": "Priority",
+            "type": "select",
+            "required": true,
+            "visible": true,
+            "options": [
+              "Low",
+              "Medium",
+              "High",
+              "Critical"
+            ]
+          },
+          {
+            "key": "budget",
+            "labelAr": "الميزانية المعتمدة",
+            "labelEn": "Allocated Budget (SAR)",
+            "type": "number",
+            "required": false,
+            "visible": true
+          }
+        ]
+      },
+      "portfolios": {
+        "screenId": "portfolios",
+        "nameAr": "محافظ الأعمال",
+        "nameEn": "Portfolios",
+        "category": "pmo",
+        "fields": [
+          {
+            "key": "name",
+            "labelAr": "اسم المحفظة",
+            "labelEn": "Portfolio Name",
+            "type": "text",
+            "required": true,
+            "visible": true
+          },
+          {
+            "key": "description",
+            "labelAr": "وصف وأهداف المحفظة",
+            "labelEn": "Description",
+            "type": "textarea",
+            "required": false,
+            "visible": true
+          },
+          {
+            "key": "departmentId",
+            "labelAr": "الإدارة المسؤولة",
+            "labelEn": "Department",
+            "type": "select",
+            "required": true,
+            "visible": true
+          },
+          {
+            "key": "startDate",
+            "labelAr": "تاريخ الانطلاق",
+            "labelEn": "Start Date",
+            "type": "date",
+            "required": true,
+            "visible": true
+          },
+          {
+            "key": "endDate",
+            "labelAr": "تاريخ الإغلاق",
+            "labelEn": "End Date",
+            "type": "date",
+            "required": true,
+            "visible": true
+          },
+          {
+            "key": "status",
+            "labelAr": "الحالة",
+            "labelEn": "Status",
+            "type": "select",
+            "required": true,
+            "visible": true,
+            "options": [
+              "Active",
+              "Draft",
+              "Archived"
+            ]
+          }
+        ]
+      },
+      "departments": {
+        "screenId": "departments",
+        "nameAr": "الإدارات التنظيمية",
+        "nameEn": "Departments",
+        "category": "pmo",
+        "fields": [
+          {
+            "key": "name",
+            "labelAr": "اسم الإدارة",
+            "labelEn": "Department Name",
+            "type": "text",
+            "required": true,
+            "visible": true
+          },
+          {
+            "key": "description",
+            "labelAr": "الوصف والمهام الرئيسية",
+            "labelEn": "Description & Mandate",
+            "type": "textarea",
+            "required": false,
+            "visible": true
+          }
+        ]
+      }
+    },
+    "lastUpdatedBy": "Hamada El Daley",
+    "lastUpdatedAt": "2026-11-10T07:34:34.562Z",
+    "screenRolePermissions": {
+      "strategic-planning": [
+        "PMO Manager",
+        "Project Manager",
+        "Team Member"
+      ],
+      "pmo-management": [
+        "PMO Manager",
+        "Project Manager",
+        "Team Member"
+      ],
+      "pmo-dashboard": [
+        "PMO Manager",
+        "Project Manager",
+        "Team Member"
+      ],
+      "progress-tracking": [
+        "PMO Manager",
+        "Project Manager",
+        "Team Member"
+      ],
+      "overdue-activities": [
+        "PMO Manager",
+        "Project Manager",
+        "Team Member"
+      ],
+      "activity-search": [
+        "PMO Manager",
+        "Project Manager",
+        "Team Member"
+      ],
+      "departments": [
+        "PMO Manager",
+        "Project Manager",
+        "Team Member"
+      ],
+      "portfolios": [
+        "PMO Manager",
+        "Project Manager",
+        "Team Member"
+      ],
+      "initiatives": [
+        "PMO Manager",
+        "Project Manager",
+        "Team Member"
+      ],
+      "projects": [
+        "PMO Manager",
+        "Project Manager",
+        "Team Member"
+      ],
+      "project-workspace": [
+        "PMO Manager",
+        "Project Manager",
+        "Team Member"
+      ],
+      "dashboard": [
+        "PMO Manager",
+        "Project Manager",
+        "Team Member"
+      ],
+      "hierarchy": [
+        "PMO Manager",
+        "Project Manager",
+        "Team Member"
+      ],
+      "workstreams": [
+        "PMO Manager",
+        "Project Manager",
+        "Team Member"
+      ],
+      "milestones": [
+        "PMO Manager",
+        "Project Manager",
+        "Team Member"
+      ],
+      "activities": [
+        "PMO Manager",
+        "Project Manager",
+        "Team Member"
+      ],
+      "scheduling": [
+        "PMO Manager",
+        "Project Manager",
+        "Team Member"
+      ]
+    }
+  }
+}

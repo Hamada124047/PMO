@@ -1,0 +1,6 @@
+{
+  "name": "PMO Project Portfolio Management System",
+  "description": "Enterprise Project Management Office (PMO) solution for managing organizational departments, portfolios, strategic initiatives, projects, workstreams, milestones, activities, subtasks, and dependencies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

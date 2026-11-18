@@ -1,0 +1,17 @@
+{
+  "enabled": false,
+  "host": "(localdb)\\MSSQLLocalDB",
+  "port": 1433,
+  "database": "PMO Agile",
+  "username": "",
+  "password": "",
+  "authMode": "windows",
+  "trustedConnection": true,
+  "ssl": false,
+  "autoSync": true,
+  "autoCreateSchema": true,
+  "lastConnectedAt": null,
+  "lastSyncAt": null,
+  "lastError": null,
+  "serverVersion": null
+}

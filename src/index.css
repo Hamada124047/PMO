@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-canvas: #F4F7FB;
+    --bg-surface: #FFFFFF;
+    --bg-sidebar: #0A0F1D;
+    --text-primary: #0F172A;
+    --text-secondary: #334155;
+    --text-muted: #64748B;
+    --border-hairline: #E2E8F0;
+    --accent-primary: #2563EB;
+    --accent-hover: #1D4ED8;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', 'IBM Plex Sans Arabic', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #F4F7FB;
+    color: #0F172A;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Outfit', 'IBM Plex Sans Arabic', -apple-system, BlinkMacSystemFont, sans-serif;
+    text-wrap: balance;
+  }
+
+  [dir="rtl"] body,
+  [dir="rtl"] h1,
+  [dir="rtl"] h2,
+  [dir="rtl"] h3,
+  [dir="rtl"] .font-display,
+  [dir="rtl"] {
+    font-family: 'IBM Plex Sans Arabic', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  .font-mono,
+  .tabular-nums {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
